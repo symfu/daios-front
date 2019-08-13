@@ -1,0 +1,11 @@
+.theme-WHITE {
+  .el-table th {
+    background: #F2FAFE;
+  }
+  .el-table th>.cell {
+    color: #333333
+  }
+  .el-table tr:nth-child(even) {
+    background-color: #F7F9FD;
+  }
+}

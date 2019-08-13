@@ -1,0 +1,209 @@
+/* 运行历史模块 */
+.operation_history {
+  height: 100%;
+  overflow: auto;
+
+  .title {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+    color: #90949d;
+
+    .el-icon-refresh {
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+
+  .total {
+    height: 70px;
+    padding: 10px;
+
+    .total_item {
+      float: left;
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    .last {
+      height: 50px;
+      background-color: #27292e;
+
+      p {
+        color: #fff;
+      }
+    }
+  }
+
+  .onetotal {
+    height: 70px;
+    padding: 10px;
+
+    .onetotal_item {
+      width: 30%;
+      margin-right: 2%;
+      text-align: center;
+
+      p {
+        color: #fff;
+      }
+    }
+  }
+
+  .filter {
+    padding: 0 10px;
+    position: relative;
+
+    .el-input {
+      .el-input__inner {
+        height: 25px;
+        line-height: 25px;
+        background-color: #323437;
+        border: none;
+        color: #999;
+      }
+
+      .el-input__inner:focus {
+        background-color: #131415;
+        color: #fff;
+      }
+    }
+
+    .data_tree_filter {
+      width: 28px;
+      height: 25px;
+      right: 6px;
+      top: 0;
+      position: absolute;
+      background-color: #1c1d1e;
+    }
+  }
+
+  .history_list {
+    height: 74%;
+    overflow-y: auto;
+    max-height: 630px;
+  }
+
+  .history_list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  //滚动条的滑块
+  .history_list::-webkit-scrollbar-thumb {
+    background-color: #050c21;
+    border-radius: 5px;
+  }
+
+  .one_title {
+    overflow: hidden;
+    color: #ccc;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .one_hour,
+  .one_day,
+  .three_day {
+    height: 50%;
+    overflow: auto;
+
+    padding: 0 10px;
+
+    .load_item {
+      .load_top {
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+      }
+
+      .load_bottom {
+        height: 30px;
+        line-height: 30px;
+        color: #666;
+      }
+    }
+
+    .load_item:hover {
+      background-color: #181a1d;
+    }
+
+    .load_item.active {
+      background-color: #181a1d;
+    }
+  }
+
+  .null_data {
+    text-align: center;
+    color: #90949d;
+    margin: 10px 0;
+  }
+
+  .one_hour::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .one_hour::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  .one_day::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .one_day::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  .three_day::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  .three_day::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+}
+
+.operation_history::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+
+}
+
+.operation_history::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+.i-circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 2px solid #8992BD;
+  margin-right: 5px;
+}
+
+.bd-green {
+  border-color: #2cd683;
+}
+
+.bd-yellow {
+  border-color: #FAB847;
+}
+
+.bd-red {
+  border-color: #df1a1a;
+}

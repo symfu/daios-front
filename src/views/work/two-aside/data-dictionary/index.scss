@@ -1,0 +1,184 @@
+.data_dictionary {
+  width: 100%;
+  height: 100%;
+
+  /* 标题栏 */
+  .data_dictionary_tit {
+    height: 30px;
+    color: #90949D;
+    font-size: 14px;
+    line-height: 30px;
+
+    .tit_l {
+      float: left;
+      padding: 0 10px;
+    }
+
+    .tit_r {
+      float: right;
+
+      div {
+        float: left;
+        margin-right: 10px;
+
+        i {
+          font-size: 16px;
+          line-height: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+  /* 筛选框 */
+  .data_dictionary_tree {
+    padding-bottom: 10px;
+
+    .el-autocomplete {
+      width: 100%;
+
+      .el-input {
+        .el-input__inner {
+          height: 28px;
+          background-color: #323437;
+          color: #5e636c;
+          border: none;
+
+        }
+
+        .el-input__inner:focus {
+          background-color: #131415;
+          color: #fff;
+        }
+
+      }
+    }
+
+
+    .data_tree_filter {
+      width: 28px;
+      height: 29px;
+      right: 6px;
+      top: 0;
+      position: absolute;
+      z-index: 100;
+      background-color: #1c1d1e;
+    }
+  }
+
+  /* 信息列表 */
+  .data_dictionary_list {
+    .item {
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #90949D;
+      cursor: pointer;
+      height: 34px;
+      line-height: 34px;
+
+      .con {
+        display: inline-block;
+        width: 80%;
+        height: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .item:hover {
+      background-color: #1d1e20;
+
+      .iconfont {
+        color: #33bdfe;
+      }
+    }
+
+    .active {
+      background-color: #1d1e20;
+
+      .iconfont {
+        color: #33bdfe;
+      }
+    }
+  }
+}
+
+/* 数据字典详细页面 */
+.data_dictionary_detail {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #1A1C22;
+
+  .title {
+    margin-bottom: 10px;
+    line-height: 22px;
+  }
+
+  .common {
+    margin: 10px 0;
+    height: 250px;
+    overflow: auto;
+
+    .com_list {
+      line-height: 40px;
+      height: 40px;
+      box-sizing: border-box;
+      border-bottom: 2px solid #27292E;
+
+      .avatar {
+        margin-right: 10px;
+      }
+
+      .span1 {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 100px;
+        margin-right: 20px;
+      }
+
+      .span2 {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 100px;
+        text-align: center;
+        margin-right: 20px;
+      }
+
+      .span3 {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 50%;
+        height: 40px;
+
+      }
+    }
+
+    .com_list:last-child {
+      border: none;
+    }
+  }
+
+  .common::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #27292e;
+  }
+
+  .common::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 5px;
+  }
+
+  .sub_com {
+    position: relative;
+
+    .el-button {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+  }
+}

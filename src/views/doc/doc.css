@@ -1,0 +1,47 @@
+.doc-container {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: auto;
+  height: 100%;
+}
+
+.doc__title {
+  font-size: 20px;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.doc__main {
+  padding: 20px;
+}
+
+.doc__main .el-row {
+  padding: 5px 0;
+}
+
+.doc__main .doc__main-header + .el-row {
+  padding-top: 10px;
+}
+
+.doc__main .el-row:last-child {
+  padding-bottom: 10px;
+}
+
+.bg-black pre {
+  background: #121212;
+  padding: 5px 10px;
+}
+
+pre {
+  background: #f5f5f5;
+  padding: 5px 10px;
+}
+
+.doc__main-header {
+  background: #000;
+  color: #fff;
+}
+
+h4 {
+  padding-top: 10px;
+}

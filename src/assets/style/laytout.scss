@@ -1,0 +1,93 @@
+/* header样式 */
+.layout_container {
+
+  .el-header {
+    background-color: #121212;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    .layout_header {
+      .logo {
+        float: left;
+      }
+
+      .user {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 50px;
+      }
+    }
+  }
+
+  .el-aside {
+    background-color: #27292e;
+    color: #989ba3;
+    .layout_aside {
+      .el-menu {
+        background-color: #27292e;
+        border-right: none;
+
+
+        .navMenu {
+
+          .el-menu-item {
+            text-align: left;
+            height: 50px;
+            line-height: 50px;
+            padding: 0 15px;
+          }
+
+          .menu_line {
+            height: 1px;
+            margin: 15px 15px 15px 15px;
+            background: rgba(54, 56, 63, 1);
+          }
+
+          .el-menu-item:focus,
+          .el-menu-item:hover {
+            background-color: #161616;
+
+            span {
+              color: #fff;
+            }
+          }
+        }
+
+      }
+
+      .el-menu:first-child {
+        i {
+          cursor: pointer;
+        }
+
+        height: 35px;
+        line-height: 35px;
+      }
+
+    }
+  }
+
+  .el-main {
+    background-color: #27292e;
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .el-footer {
+    background-color: #141619;
+  }
+}
+
+.layout_container {
+  .admin-main {
+    padding: 20px;
+    .ui-main {
+      display: flex;
+      flex-direction: column;
+    }
+    .row-title {
+      padding-top: 0;
+    }
+  }
+}

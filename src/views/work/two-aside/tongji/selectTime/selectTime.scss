@@ -1,0 +1,60 @@
+.selectTime {
+  display: flex;
+}
+
+.time-item {
+  width: 30px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.wrapTime {
+  margin-right: 10px;
+  color: #444;
+}
+
+.el-date-editor {
+  background-color: #202229;
+  width: 200px !important;
+  border-color: #444;
+}
+
+.el-range-input {
+  background-color: #202229;
+  font-size: 12px !important;
+}
+
+.el-picker-panel__body {
+  background-color: #202229;
+}
+
+.active-item {
+  border: 1px solid #107FB4 !important;
+  color: #107FB4;
+}
+.el-picker-panel {
+  border: none;
+  box-shadow: 0 0 6px #333;
+}
+.popper__arrow::after {
+  border-bottom-color: #444 !important;
+  top: 0px !important;
+}
+
+.item1 {
+  border: 1px solid #444;
+  border-radius: 2px 0 0 2px;
+}
+
+.item2 {
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.item3 {
+  border: 1px solid #444;
+  border-radius: 0 2px 2px 0;
+}

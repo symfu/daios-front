@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30">
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-954" y="-186" width="3840" height="2160" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<path fill="rgb(115,117,127)" stroke="none" transform="scale(2 2)" d="M11.4667 0L0 0L0 1.13333L11.4667 1.13333L11.4667 0ZM6.6319 2.26667L0 2.26667L0 3.4L6.6319 3.4L6.6319 2.26667ZM0 5.66667L5.49857 5.66667L5.49857 6.8L0 6.8L0 5.66667ZM5.49857 7.93333L0 7.93333L0 9.06667L5.49857 9.06667L5.49857 7.93333ZM0 11.3333L6.24085 11.3333L6.24085 12.4667L0 12.4667L0 11.3333ZM4.36524 13.6L0 13.6L0 14.7333L4.36524 14.7333L4.36524 13.6Z" fill-rule="evenodd"/>
+	</g>
+	<defs>
+		<clipPath id="clip_1">
+			<rect x="-954" y="-186" width="3840" height="2160" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_1)">
+		<path fill="rgb(115,117,127)" stroke="none" transform="matrix(2 0 0 2 13.8667 27.2)" d="M2.26667 0L0 0L0 1.13333L2.26667 1.13333L2.26667 0ZM5.57954 0L3.17954 0L3.17954 1.13333L5.57954 1.13333L5.57954 0Z" fill-rule="evenodd"/>
+	</g>
+	<defs>
+		<clipPath id="clip_2">
+			<rect x="-954" y="-186" width="3840" height="2160" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_2)">
+		<path fill="rgb(67,187,46)" stroke="none" transform="matrix(1.78201 0.907981 -0.907981 1.78201 22.3953 2.93994)" d="M0.0241891 0.624163L0.024459 0.618328C0.0238382 0.280475 0.267325 -0.000619813 0.605177 0L2.55721 0.0035881C2.89506 0.00420894 3.13959 0.286201 3.14021 0.624053L3.15682 0.624163L3.15682 1.56336L0.0011143 1.56336L0.0011143 0.624163L0.0241891 0.624163ZM0.0306453 1.87429L3.2126 1.87429L3.2126 8.84429L0.0306453 8.84429L0.0306453 1.87429ZM3.17143 9.16983L0 9.15634L1.57897 12.0135L3.17143 9.16983Z" fill-rule="evenodd"/>
+	</g>
+
+</svg>

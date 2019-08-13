@@ -1,0 +1,196 @@
+/* 数据操作侧边栏区域 */
+.data_opera {
+  width: 100%;
+  height: 100%;
+
+  /* 标题栏 */
+  .data_opera_tit {
+    height: 30px;
+    color: #90949D;
+    font-size: 14px;
+    line-height: 30px;
+
+    .tit_l {
+      float: left;
+      padding: 0 10px;
+    }
+
+    .tit_r {
+      float: right;
+
+      div {
+        float: left;
+        margin-right: 10px;
+
+        i {
+          font-size: 16px;
+          line-height: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+  /* tree */
+  .data_opera_tree {
+    height: 100%;
+    position: relative;
+
+    .el-input {
+      .el-input__inner {
+        height: 28px;
+        background-color: #323437;
+        color: #5e636c;
+        border: none;
+
+      }
+
+      .el-input__inner:focus {
+        background-color: #131415;
+        color: #fff;
+      }
+
+    }
+
+    .data_tree_filter {
+      width: 28px;
+      height: 29px;
+      right: 6px;
+      top: 0;
+      position: absolute;
+      background-color: #1c1d1e;
+    }
+
+    /* tree */
+    .tree_box {
+      height: 100%;
+      overflow: auto;
+      position: absolute;
+      width: 100%;
+    }
+
+    .tree_box::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    //滚动条的滑块
+    .tree_box::-webkit-scrollbar-thumb {
+      background-color: #050c21;
+      border-radius: 5px;
+    }
+
+    .data_opera_tree_con {
+      background-color: #27292e;
+      font-size: 12px;
+      color: #fff;
+      overflow: auto;
+
+      .el-tree-node {
+        .el-tree-node__content {
+          height: 30px;
+
+        }
+      }
+
+
+      .el-tree-node:focus {
+
+        >.el-tree-node__content {
+          background-color: #161616;
+        }
+      }
+
+
+      .el-tree-node__content:hover {
+        background: #161616;
+      }
+
+      .el-tree-node__content:focus {
+        background: #161616;
+      }
+
+      .el-tree-node__content:active {
+        background: #161616;
+      }
+
+      .el-tree-node__content:visited {
+        background: #161616;
+      }
+    }
+
+    .custom-tree-node-fold {
+      color: #565C6F;
+    }
+
+    .custom-tree-node {
+
+      .daiosVERTICA,
+      .daiosmongodb,
+      .daiosSQL,
+      .daiosSQLSEVER,
+      .daiosoracle,
+      .daiosredis {
+        color: #28889E !important;
+      }
+    }
+
+  }
+
+  .data_opera_tree_null {
+    margin-top: 20px;
+    height: 100%;
+    text-align: center;
+
+    .item1 {
+      margin-bottom: 20px;
+      color: #90949d;
+
+      i {
+        font-size: 16px;
+        color: #206484;
+      }
+    }
+
+    .item3 {
+      margin-top: 20px;
+      color: #6e6e6e;
+    }
+  }
+
+  /* 右键菜单 */
+  .right-menu {
+    position: absolute;
+    width: 140px;
+    // text-align: center;
+    background: #2f323a;
+
+    .menu_item {
+      cursor: pointer;
+      padding-left: 30px;
+      color: #aaa;
+      line-height: 25px;
+    }
+
+    .menu_item:hover {
+      cursor: pointer;
+      color: #fff;
+      background: #43464f;
+    }
+
+    .disabled.menu_item {
+      cursor: not-allowed;
+      pointer-events: none;
+      color: #555;
+      background: #2f323a;
+    }
+
+    .disabled:hover {
+      cursor: not-allowed;
+      pointer-events: none;
+      color: #555;
+      background: #2f323a;
+    }
+  }
+}

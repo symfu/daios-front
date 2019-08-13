@@ -1,0 +1,88 @@
+.el-button {
+  border-radius: 2px
+}
+
+.el-button--blue {
+  background: #33BDFE;
+  border-color: #33BDFE;
+  color: #fff;
+}
+
+.el-button--blue:hover,
+.el-button--blue:active,
+.el-button--blue:focus {
+  background-color: #2EABE6;
+  border-color: #2EABE6;
+  color: #fff;
+}
+
+.el-button--black {
+  background: #161616;
+  border-color: #0c82b0;
+  color: #0c82b0;
+}
+
+.el-button--black:hover,
+.el-button--black:active,
+.el-button--black:focus {
+  background-color: #2EABE6;
+  border-color: #2EABE6;
+  color: #fff;
+}
+
+.el-button--gary {
+  background: #161616;
+  border-color: #3b4853;
+  color: #999999;
+}
+
+.el-button--gary:hover,
+.el-button--gary:active,
+.el-button--gary:focus {
+  background-color: #2EABE6;
+  border-color: #2EABE6;
+  color: #fff;
+}
+
+.el-message-box {
+  border: none;
+  background-color: #1d1e22;
+}
+
+.el-message-box__header {
+  background-color: #27292e;
+  .el-message-box__title {
+    color: #fff;
+  }
+}
+
+.el-message-box__content {
+  background-color: #27292e;
+  .el-message-box__message p {
+    color: #fff;
+  }
+}
+
+.theme-WHITE {
+  .el-dialog__header {
+    padding: 14px 13px;
+  }
+  .el-dialog__title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1
+  }
+  .el-dialog__headerbtn {
+    top: 14px;
+    right: 13px;
+  }
+  .el-dialog__body {
+    padding: 15px;
+    background: #F2F4F7;
+  }
+  .el-dialog__footer {
+    text-align: center;
+    padding: 15px 20px
+  }
+
+}

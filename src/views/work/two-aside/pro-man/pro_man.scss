@@ -1,0 +1,221 @@
+.pro_man {
+  width: 100%;
+  height: 100%;
+
+  /* 标题栏 */
+  .pro_man_tit {
+    height: 30px;
+    color: #90949D;
+    font-size: 14px;
+    line-height: 30px;
+
+    .tit_l {
+      float: left;
+      padding: 0 10px;
+    }
+
+    .tit_r {
+      float: right;
+
+      div {
+        float: left;
+        margin-right: 10px;
+
+        i {
+          font-size: 16px;
+          line-height: 30px;
+          cursor: pointer;
+        }
+      }
+    }
+
+  }
+
+  /* 筛选框 */
+  .pro_man_tree {
+    padding-bottom: 10px;
+
+    .el-input {
+      .el-input__inner {
+        height: 28px;
+        background-color: #323437;
+        color: #5e636c;
+        border: none;
+
+      }
+
+      .el-input__inner:focus {
+        background-color: #131415;
+        color: #fff;
+      }
+
+    }
+
+    .data_tree_filter {
+      width: 28px;
+      height: 29px;
+      right: 6px;
+      top: 0;
+      position: absolute;
+      background-color: #1c1d1e;
+    }
+  }
+
+  /* 信息列表 */
+  .pro_man_list {
+    .item {
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #90949D;
+      cursor: pointer;
+      height: 34px;
+      line-height: 34px;
+
+      img {
+        vertical-align: sub;
+      }
+    }
+
+    .item:hover {
+      background-color: #1d1e20;
+
+      .iconfont {
+        color: #33bdfe;
+      }
+    }
+
+    .active {
+      background-color: #1d1e20;
+
+      .iconfont {
+        color: #33bdfe;
+      }
+    }
+  }
+}
+
+/* 项目信息 */
+.pro_man_xmxx {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #1A1C22;
+
+  .base_info {
+    width: 100%;
+    height: 260px;
+    overflow: auto;
+
+    // background-color: red;
+    .title {
+      line-height: 22px;
+      font-size: 16px;
+      margin: 10px 0 20px 0;
+    }
+
+    .tit_con {
+      width: 100%;
+      overflow: hidden;
+
+      .box1,
+      .box2,
+      .box3 {
+        width: 280px;
+        height: 100px;
+        text-align: left;
+
+        div {
+          line-height: 30px;
+        }
+      }
+
+      .box3 {
+        height: 30px;
+      }
+    }
+
+    .caozuo {
+      .text {
+        float: left;
+        font-size: 16px;
+        cursor: pointer;
+        margin-right: 40px;
+      }
+
+      .text:hover {
+        color: #1890FF;
+      }
+    }
+  }
+
+  .line {
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+
+  }
+
+  .con {
+    width: 100%;
+    // height: 400px;
+    // overflow: auto;
+
+    // background-color: red;
+    .title {
+      line-height: 22px;
+      font-size: 16px;
+      margin: 10px 0 20px 0;
+      overflow: hidden;
+
+      .el-button {
+        // margin-right: 10px;
+      }
+    }
+
+    .el-pagination {
+      margin-top: 10px;
+      float: right;
+    }
+  }
+}
+
+/* 项目成员 */
+.pro_man_xmcy {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #1A1C22;
+
+  .tit {
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+
+  }
+
+  .con {
+    margin-top: 20px;
+
+    .el-pagination {
+      margin-top: 10px;
+      float: right;
+    }
+  }
+}
+
+/* 项目广场 */
+.pro_man_xmgc {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background-color: #1A1C22;
+
+  .con {
+    margin-top: 20px;
+
+    .el-pagination {
+      margin-top: 10px;
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.ranking{
+    display: flex;
+    flex-direction: column;
+    .ranking-body{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        flex: auto;
+    }
+    .table{
+        width: 49%;
+    }
+    .title{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .table-header,.row{
+        display: flex;
+    }
+    .column1{
+        width: 20%;
+        overflow: hidden;
+    }
+    .column2{
+        width: 42%;
+        overflow: hidden;
+    }
+    .column3{
+        width: 38%;
+        overflow: hidden;   
+    }
+    .table-header{
+        background-color: #3D3F44;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 10px;
+        color: #ccc;
+    }
+    .row{
+        padding: 0 10px;
+        color: #999;
+        height: 42px;
+        line-height: 42px;
+        border-bottom: 1px solid #444;
+    }
+}
