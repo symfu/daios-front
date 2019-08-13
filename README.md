@@ -11,6 +11,10 @@
  之前是小公司，只有我一个前端，后端有8个，我这样坚持了一年，平时很忙的，所以代码写的有写乱，斗胆开源，不胜惶恐，后端代码在前同事手里（JAVA）,可能过段时间也会开源
  - 关于代码
  如果您看到了这个仓库，代码最核心就是编辑器（使用以及lsp支持）和terminal（由开源项目ttyd改造，后端由python改写，支持多线程，可同时多开好多个,前端部分由我改造成vue），还基于饿了么做了一个动态表单组件，动态右键菜单，快捷键
+ ## 项目图片
+ ![微信图片_20190813181622.png](https://upload-images.jianshu.io/upload_images/639331-5705d4a03866839c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)![SQL UI-detail.png](https://upload-images.jianshu.io/upload_images/639331-6077c15f708d243e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![数据脱敏.png](https://upload-images.jianshu.io/upload_images/639331-ae6544eee66332d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## Project setup
 ```
